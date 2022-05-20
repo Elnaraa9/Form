@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background-color: rgba(7, 187, 139, 0.68);
+  height: 60px;
+  color: white;
+  font-size: 40px;
+  padding-left: 15px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+.button {
+  border: none;
+  padding: 9px 29px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 24px 22px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: rgba(7, 187, 139, 0.68);
+  color: white;
+}
+
+form {
+  margin: 0 5px;
+}
+
+form label {
+  margin: 15px 0;
+  display: block;
+}
+
+form label:after {
+  content: "*";
+  color: red;
+}
+/*# sourceMappingURL=index.css.map */

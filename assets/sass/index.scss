@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color:rgba(7, 187, 139, 0.68);
+    height: 60px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    padding-left: 15px;
+}
+label{
+    margin-bottom: 10px;
+}
+.button {
+    border: none; 
+    padding: 9px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 24px 22px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button1 {
+    background-color: rgba(7, 187, 139, 0.68); 
+    color: rgb(255, 255, 255); 
+  }
+  form{
+    margin: 0 5px;
+    
+    label{
+        margin: 15px 0;
+        display: block;
+        &:after{
+        content: "*";
+        color: red;
+        }
+    }
+}
